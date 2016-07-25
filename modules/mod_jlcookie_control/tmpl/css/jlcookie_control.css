@@ -1,0 +1,248 @@
+
+/*
+ * 25 Feb 13 - Russ McKay - 35500841 - Changed colour of "block" button from red to grey
+ *
+ */
+
+#jlcookie_controlMsg{
+    position: fixed;
+    width: 200px;
+    z-index: 1000;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7); /*must be shorthand, not background-color, b/c of IE bug */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    display: none;
+}
+
+#jlcookie_controlMsg strong{
+    font-size: 15px;
+}
+
+#jlcookie_controlMsgFirst{
+    position: fixed;
+    width: 200px;
+    z-index: 1000;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7); /*must be shorthand, not background-color, b/c of IE bug */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    display: none;
+}
+
+#jlcookie_controlMsgFirst strong{
+    font-size: 15px;
+}
+
+#jlcookie_controlMsgDeny{
+    position: fixed;
+    width: 200px;
+    z-index: 1000;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    display: none;
+}
+
+#jlcookie_controlMsgDeny strong{
+    font-size: 15px;
+}
+
+#jlcookie_controlOpen{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.jlcookie_controlClose{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 16px;
+    height: 16px;
+    background-image: url('/modules/mod_jlcookie_control/tmpl/images/close.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.jlcookie_controlClose:hover{
+    background-position: 0px -16px;
+}
+
+
+/* Allow Button */
+.jlcookie_controlAllow{
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
+
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+    background-color: #248a24;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#51b751), to(#248a24)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #51b751, #248a24); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #51b751, #248a24); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #51b751, #248a24); /* IE10 */
+    background-image:      -o-linear-gradient(top, #51b751, #248a24); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #51b751, #248a24);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#51b751', endColorstr='#248a24');
+
+}
+
+.jlcookie_controlAllow:hover {
+    background-color: #248a24;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8dd28d), to(#248a24)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #8dd28d, #248a24); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #8dd28d, #248a24); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #8dd28d, #248a24); /* IE10 */
+    background-image:      -o-linear-gradient(top, #8dd28d, #248a24); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #8dd28d, #248a24);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8dd28d', endColorstr='#248a24');
+}
+
+.jlcookie_controlAllow:active {
+    background-color: #8dd28d;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#248a24), to(#8dd28d)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #248a24, #8dd28d); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #248a24, #8dd28d); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #248a24, #8dd28d); /* IE10 */
+    background-image:      -o-linear-gradient(top, #248a24, #8dd28d); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #248a24, #8dd28d);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#248a24', endColorstr='#8dd28d');
+}
+
+/* Deny Button */
+.jlcookie_controlDeny{
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: bold;
+
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+    background-color: #C4C4C4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C4C4C4), to(#646464)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #C4C4C4, #646464); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #C4C4C4, #646464); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #C4C4C4, #646464); /* IE10 */
+    background-image:      -o-linear-gradient(top, #C4C4C4, #646464); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #C4C4C4, #646464);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#C4C4C4', endColorstr='#646464');
+}
+
+.jlcookie_controlDeny:hover {
+    background-color: #dadada;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#646464)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #dadada, #646464); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #dadada, #646464); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #dadada, #646464); /* IE10 */
+    background-image:      -o-linear-gradient(top, #dadada, #646464); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #dadada, #646464);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#dadada', endColorstr='#646464');
+}
+
+.jlcookie_controlDeny:active {
+    background-color:#646464;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#dadada)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #646464, #dadada); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #646464, #dadada); /* FF3.6 */
+    background-image:     -ms-linear-gradient(top, #646464, #dadada); /* IE10 */
+    background-image:      -o-linear-gradient(top, #646464, #dadada); /* Opera 11.10+ */
+    background-image:         linear-gradient(top, #646464, #dadada);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#646464', endColorstr='#dadada');
+}
+
+.jlcookie_controlMoreInfo{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 11px;
+    background-image: url('/modules/mod_jlcookie_control/tmpl/images/new-win.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 16px;
+}
+
+.jlcookie_controlMoreInfo a,
+.jlcookie_controlMoreInfo a:active,
+.jlcookie_controlMoreInfo a:visited{
+    color: #ccc;
+}
+
+.jlcookie_controlMoreInfo a:hover{
+    color: #fff;
+}
+
+
+#jlcookie_controlMsg p{
+    padding: 0;
+    margin: 0;
+}
+
+#jlcookie_controlMsgFirst p{
+    padding: 0;
+    margin: 0;
+}
+
+#jlcookie_controlMsgDeny p{
+    padding: 0;
+    margin: 0;
+}

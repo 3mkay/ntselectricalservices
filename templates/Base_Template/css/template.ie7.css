@@ -1,0 +1,206 @@
+/* begin Page */
+#bt-page-background-glare-image
+{
+    zoom: 1;
+}
+
+img
+{
+    filter: expression(artFixPNG(this));
+}/* end Page */
+
+/* begin Box, Sheet */
+.bt-sheet-tl
+{
+    clip: rect(auto 29px 29px auto);
+}
+
+.bt-sheet-tr
+{
+    clip: rect(auto auto 29px 29px);
+}
+
+.bt-sheet-bl
+{
+    clip: rect(29px 29px auto auto);
+}
+
+.bt-sheet-br
+{
+    clip: rect(29px auto auto 29px);
+}
+
+.bt-sheet-tc
+{
+    clip: rect(auto auto 29px auto);
+}
+
+.bt-sheet-bc
+{
+    clip: rect(29px auto auto auto);
+}
+
+.bt-sheet-cr
+{
+    clip: rect(auto auto auto 29px);
+}
+
+.bt-sheet-cl
+{
+    clip: rect(auto 29px auto auto);
+}
+
+.bt-sheet-body
+{
+    zoom: 1;
+}
+/* end Box, Sheet */
+
+/* begin Layout */
+.bt-content-layout, .bt-content-layout-row {display: block;}
+.bt-content-layout, .bt-content-layout-row {zoom: 1;}
+/* end Layout */
+
+/* begin Box, Block, VMenuBlock */
+
+.bt-vmenublock-body
+{
+    zoom: 1;
+}
+/* end Box, Block, VMenuBlock */
+
+/* begin Box, Box, VMenuBlockContent */
+
+.bt-vmenublockcontent-body
+{
+
+    zoom: 1;
+}
+
+
+/* end Box, Box, VMenuBlockContent */
+
+/* begin VMenuItem */
+ul.bt-vmenu .bt-vmenu-separator, ul.bt-vmenu .bt-vmenu-separator-span, ul.bt-vmenu li.bt-vsubmenu-separator, ul.bt-vmenu .bt-vsubmenu-separator-span
+{
+    zoom: 1;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.bt-vmenu ul, .bt-vmenu li
+{
+    zoom: 1;
+}
+
+ul.bt-vmenu a .r
+{
+    clip: rect(auto auto auto 946px);
+}
+/* end VMenuItem */
+
+/* begin Box, Block */
+.bt-block-tl
+{
+    clip: rect(auto 1px 1px auto);
+}
+
+.bt-block-tr
+{
+    clip: rect(auto auto 1px 1px);
+}
+
+.bt-block-bl
+{
+    clip: rect(1px 1px auto auto);
+}
+
+.bt-block-br
+{
+    clip: rect(1px auto auto 1px);
+}
+
+.bt-block-tc
+{
+    clip: rect(auto auto 1px auto);
+}
+
+.bt-block-bc
+{
+    clip: rect(1px auto auto auto);
+}
+
+.bt-block-cr
+{
+    clip: rect(auto auto auto 1px);
+}
+
+.bt-block-cl
+{
+    clip: rect(auto 1px auto auto);
+}
+
+.bt-block-body
+{
+    zoom: 1;
+}
+/* end Box, Block */
+
+/* begin Box, BlockContent */
+
+.bt-blockcontent-body
+{
+    zoom: 1;
+}
+/* end Box, BlockContent */
+
+/* begin Button */
+.bt-button-wrapper .bt-button-r
+{
+    clip: rect(auto auto auto 405px);
+}
+/* end Button */
+
+/* begin Box, Post */
+
+.bt-post-body
+{
+    zoom: 1;
+}
+/* end Box, Post */
+
+/* begin PostContent */
+.bt-postcontent
+{
+    height: 1%;
+}
+/* end PostContent */
+
+/* begin LayoutCell, content */
+.bt-content {width: auto;}
+.bt-content-layout .bt-layout-cell, .bt-content-layout .bt-layout-cell .bt-content-layout .bt-layout-cell
+{
+    display: block;
+    position:relative;
+    float: left;
+    clear: right;
+}
+.bt-content-layout .bt-layout-cell, .bt-content-layout .bt-layout-cell .bt-content-layout .bt-layout-cell {  zoom:1; }
+.bt-layout-cell .bt-layout-cell{ float: none; clear: both;}
+/* end LayoutCell, content */
+
+
+
+/* Plugin compatilibity. */
+
+/* 154150, news pro gk1 */
+.gk_npro_full_scroll1
+{
+    position: relative;
+}
+
+.nspro_bg_wrap .bt-button-wrapper a
+{
+    float: none !important;
+}
