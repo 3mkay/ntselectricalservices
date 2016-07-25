@@ -330,7 +330,7 @@ function jliovoxC2C(){
             $j('#c2c-response').html('<img src="/modules/mod_jliovox/tmpl/images/loader.gif" alt="" height="16" width="16" />');
 
             $j.ajax({
-                url: "index.php?option=com_jliovox&task=ajax&client_number="+$j("#c2c-number").val()+"&"+token+"=1",
+                url: "index.html?option=com_jliovox&task=ajax&client_number="+$j("#c2c-number").val()+"&"+token+"=1",
                 dataType: "html", //change to html for messages when complete
                 cache: false,
                 timeout: AJAX_TIMEOUT,

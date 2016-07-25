@@ -91,7 +91,7 @@
                   </div>
                   <div class="bt-headerobject">
                     <div id="header_logo_position" style="position: absolute;z-index: 10;margin-left:-50%;left:50%;width:100%; max-width:100%;" class="header_logo">
-                      <a href="/index.php" title="Return to Home Page" target="_self">
+                      <a href="/index.html" title="Return to Home Page" target="_self">
                         <img src="/images/header-object.png" id="tz_headerLogo" alt="Return to Home Page" class="img-responsive">
                       </a>
                     </div>
@@ -112,7 +112,7 @@
                             <div class="bt-vmenublockcontent-body">
                               <ul class="bt-vmenu" id="mainlevel">
     
-        <li class="active"><a href="/index.php"><span class="l"></span><span class="r"></span><span
+        <li class="active"><a href="/index.html"><span class="l"></span><span class="r"></span><span
                 class="t">Home</span></a></li>
     
         <li><a href="/installation-and-maintenance"><span class="l"></span><span class="r"></span><span
