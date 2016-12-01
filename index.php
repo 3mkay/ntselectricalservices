@@ -55,13 +55,13 @@
 
     <nav class="site-nav">
       <div class="trigger">
-        
+
           <a class="page-link" href="/about/">About</a>
-        
+
           <a class="page-link" href="/feed.xml"></a>
-        
+
           <a class="page-link" href="/"></a>
-        
+
       </div>
     </nav>
 
@@ -111,31 +111,31 @@
                           <div class="bt-vmenublockcontent">
                             <div class="bt-vmenublockcontent-body">
                               <ul class="bt-vmenu" id="mainlevel">
-    
+
         <li class="active"><a href="/index.html"><span class="l"></span><span class="r"></span><span
                 class="t">Home</span></a></li>
-    
+
         <li><a href="/installation-and-maintenance"><span class="l"></span><span class="r"></span><span
                 class="t">Installation &amp; Maintenance</span></a></li>
-    
+
         <li><a href="/lighting"><span class="l"></span><span class="r"></span><span
                 class="t">Lighting</span></a></li>
-    
+
         <li><a href="/alarm-systems"><span class="l"></span><span class="r"></span><span
                 class="t">Alarm Systems</span></a></li>
-    
+
         <li><a href="/consulting"><span class="l"></span><span class="r"></span><span
                 class="t">Consulting</span></a></li>
-    
+
         <li><a href="/electrical-testing-electrician-newtownabbey"><span class="l"></span><span class="r"></span><span
                 class="t">Electrical Testing</span></a></li>
-    
+
         <li><a href="/about-us-electrician-newtownabbey-nts-electrical-services-belfast-spark"><span class="l"></span><span class="r"></span><span
                 class="t">About us - Noel The Spark</span></a></li>
-    
+
         <li><a href="/contact-us"><span class="l"></span><span class="r"></span><span
                 class="t">Contact us</span></a></li>
-    
+
     <!--
     <li id="current" class="active item53"><a href="/" class="active"><span class="l"></span><span
             class="r"></span><span class="t">Home</span></a></li>
@@ -182,7 +182,7 @@
                             <div class="bt-blockcontent-body">
 
                               <!-- <p style="text-align: center;"><a class="jliovox-c2c" href="#"><img alt="Click to Call" src="/images/1/click-to-call-white-211x150.jpg" width="211" height="150" /></a></p> -->
-                              <p><img style="display: block; margin-left: auto; margin-right: auto;" alt="neceic" src="/images/neceic.jpg" width="205" height="118" /></p>
+                              <!-- <p><img style="display: block; margin-left: auto; margin-right: auto;" alt="neceic" src="/images/neceic.jpg" width="205" height="118" /></p> -->
                               <div style="position: relative; background: #fff;">
                                 <p>&nbsp;</p>
                                 <p><img style="display: block; margin-left: auto; margin-right: auto;" title="cartoon-charactor-of-electrician-wearing-blue-overalls-yellow-helmet-with-thumbs-up" alt="Noel the Spark in black overals and tool belt" src="/images/NTS.png" width="161" height="189" /></p>
